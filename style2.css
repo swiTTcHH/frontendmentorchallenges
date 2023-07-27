@@ -32,6 +32,26 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.attrib{
+  text-align: center;
+  display: block;
+  margin-top: 2rem;
+  
+}
+
+.attrib a {
+  background-color: grey;
+  color: black;
+  padding: 0.56rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+
+.attrib a:hover{
+  background-color: rgba(128, 128, 128, 0.456);
+}
+
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -328,5 +348,18 @@ button:hover {
 
   .bottomsection .ta1 .ta a {
     padding: 0.5rem 0;
+  }
+
+  .attrib a {
+    padding-top: 1rem;
+    text-align: center;
+    display: block;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1439) {
+  .ta a {
+    padding: 0;
   }
 }
